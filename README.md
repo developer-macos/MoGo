@@ -8,6 +8,6 @@ PRO TIP: Save your time and take the guesswork out of the legal jargon with the 
 
 Software and Coding Co.
 
-Making your life easier.
+# Making your life easier.
 
 Copyrighted by Webstudio Corporation

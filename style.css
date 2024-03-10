@@ -19,9 +19,8 @@
 }
 
 .ABOUT {
-    color: var(--deco-color);
+  color: var(--deco-color);
 }
-
 
 .nav-list {
   display: flex;
@@ -35,12 +34,11 @@
   font-size: 14px;
 }
 
-
-
 .r {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
-.rel {
-    color: var(--logo-color);
+.rel li a {
+  color: var(--logo-color);
+  text-decoration: none;
 }

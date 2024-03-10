@@ -17,3 +17,26 @@
   color: var(--button-color);
   font-size: 14px;
 }
+
+.ABOUT {
+    color: var(--deco-color);
+}
+
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  padding: 0 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+.r {
+    color: var(--text-color);
+}

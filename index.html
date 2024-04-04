@@ -3,33 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOGO | Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <a class="logo" href="index.html">MoGo</a>
-        <ul class="nav-list">
-            <li>
-                <a class="ABOUT" href="#">ABOUT</a>
-            </li>
-            <li>
-                <a class="rel" href="#">SERVICE</a>
-            </li>
-            <li>
-                <a class="rel" href="#">WORK</a>
-            </li>
-            <li>
-            </li>
-            <li>
-                <a class="rel" href="#">BLOG</a>
-            </li>
-            <li>
-                <a class="rel" href="">CONTACT</a>
-            </li>
-        </ul>
+        <section class="nav-list">
+            <a class="ABOUT" href="#">ABOUT</a>
+            <a class="rel" href="#">SERVICE</a>
+            <a class="rel" href="#">WORK</a>
+            <a class="rel" href="#">BLOG</a>
+            <a class="rel" href="#">CONTACT</a>
+        </section>
     </header>
     <main>
         <section>
@@ -66,35 +64,35 @@
         </section>
         <section>
             <i>Who we are</i>
-            <h2>Meet our team</h2>
+            <h2 class="meet">Meet our team</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat.</p>
         </section>
-        <div>
-            <img src="./img/first-man.jpeg" alt="Matthew Dix">
+        <ul class="man-list">
+            <li><img src="./img/first-man.jpeg" alt="Matthew Dix">
             <br>
             <span>Matthew Dix</span>
-            <p class="r">Graphic Design</p>
-        </div>
-        <div>
-            <img src="./img/second-man.jpeg" alt="Christopher Campbell">
+            <p class="r">Graphic Design</p></li>
+            <li><img src="./img/second-man.jpeg" alt="Christopher Campbell">
             <br>
             <span>Christopher Campbell</span>
             <p class="r">Branding/UX design</p>
-        </div>
-        <div>
-            <img src="./img/third-man.jpeg" alt="Michael Fertig">
+        </li>
+            <li><img src="./img/third-man.jpeg" alt="Michael Fertig">
             <br>
             <span>Michael Fertig</span>
-            <p class="r">Developer</p>
-        </div>
+            <p class="r">Developer</p></li>
+
+
+
+        </ul>
         <hr>
     </main>
-    <footer>
-        <p>© 2016 MoGo free PSD template by Laaqiq</p>
-        <form>
+    <footer class="footer"> 
+        <p>© 2016 MoGo free PSD template by <span class="span-footer">Laaqiq</span></p>
+        <form class="form-footer">
             <input type="text" placeholder="Your email...">
             <button class="button" type="submit">Subscribe</button>
         </form>

@@ -10,6 +10,7 @@
   color: var(--logo-color);
   font-size: larger;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
 }
 
 .button {
@@ -27,12 +28,13 @@
   align-items: center;
 }
 
-.nav-list li {
+.nav-list a {
   padding: 0 10px;
-  color: white;
   font-weight: bold;
   font-size: 14px;
+  text-decoration: none;
 }
+
 
 .r {
   color: var(--text-color);
@@ -41,4 +43,26 @@
 .rel li a {
   color: var(--logo-color);
   text-decoration: none;
+}
+
+
+.span-footer{
+  color: rgb(243, 129, 129)
+}
+
+.man-list{
+  display: flex;
+  flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.meet{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 37px;
+letter-spacing: 0%;
+margin-left: 844px;
 }

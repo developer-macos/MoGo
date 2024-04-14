@@ -1,28 +1,47 @@
 :root {
-  --logo-color: rgb(149, 225, 211);
+  --logo-color: #95e1d3;
   --deco-color: rgb(243, 129, 129);
   --text-color: rgb(182, 182, 182);
   --title-color: rgb(51, 51, 51);
   --button-color: rgb(255, 255, 255);
 }
 
+body{
+  background-color: #FFFFFF;
+}
+
 .header-container{
   margin: 0 auto;
   border: solid 1px;
-  max-width: 906px ;
+  max-width: 1200px ;
   margin-bottom: 68px;
 }
+
 
 .main-container-one{
     margin: 0 auto;
   border: solid 1px;
-  max-width: 906px ;
+  max-width: 1200px ;
   margin-bottom: 65px;
 }
 .main-container-two{
     margin: 0 auto;
   border: solid 1px;
-  max-width: 900px ;
+  max-width: 1200px ;
+  margin-bottom: 100px;
+}
+
+.main-container-three{
+      margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px ;
+  margin-bottom: 27px;
+}
+
+.main-container-four{
+      margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px ;
 }
 
 .logo {
@@ -59,9 +78,10 @@
   color: var(--text-color);
 }
 
-.rel li a {
+.rel{
   color: var(--logo-color);
   text-decoration: none;
+  color: var(--logo-color);
 }
 
 
@@ -83,9 +103,27 @@
   font-size: 30px;
   line-height: 37px;
 letter-spacing: 0%;
-margin-left: 844px;
 }
 
 .photography{
   text-transform: uppercase;
+}
+
+.hr{
+  width: 1200px;
+}
+
+.footer-container{
+      margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px ;
+}
+
+.lorem-i{
+  color: var(--text-color);
+}
+
+.span{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }

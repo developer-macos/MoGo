@@ -6,6 +6,25 @@
   --button-color: rgb(255, 255, 255);
 }
 
+.header-container{
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 906px ;
+  margin-bottom: 68px;
+}
+
+.main-container-one{
+    margin: 0 auto;
+  border: solid 1px;
+  max-width: 906px ;
+  margin-bottom: 65px;
+}
+.main-container-two{
+    margin: 0 auto;
+  border: solid 1px;
+  max-width: 900px ;
+}
+
 .logo {
   color: var(--logo-color);
   font-size: larger;
@@ -65,4 +84,8 @@
   line-height: 37px;
 letter-spacing: 0%;
 margin-left: 844px;
+}
+
+.photography{
+  text-transform: uppercase;
 }
